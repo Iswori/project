@@ -189,10 +189,14 @@ font-size: 35px;
     width: 150px;
     border-radius: 20px;
     border: none;
-    background-color: #773892cc;
+    background-color: #5c0a80cc;
     color: #f7f7f7;
     margin-bottom: 30px;
     font-size: 18px;
+}
+.form button:hover{
+    transform: scale(1.1);
+    background-color: #460c39;
 }
 .course{
     height: fit-content;
@@ -227,6 +231,10 @@ h3{
     gap: 10px;
     margin-left: 180px;
     position: sticky;
+}
+.webox:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .web{
     height: 250px;
@@ -322,6 +330,9 @@ box-shadow: 10px 10px 10px rgb(222, 238, 132);
     margin-bottom: 100px;
     box-shadow: 10px 10px 10px rgb(221, 132, 221);
 }
+.para1:hover,.para2:hover,.para3:hover{
+    transform: rotate(7deg);
+}
 .testimonials{
     height: fit-content;
     width: 100%;
@@ -365,18 +376,19 @@ background-color: rgba(223, 222, 238, 0.87);
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #db9122;
+    background-color: #f1d5aa;
     /* margin-top: 80px; */
 }
 .tutorpart{
     display: flex;
     flex-direction: row;
-  margin-left: 120px;
+  margin-left: 200px; 
+  margin-right: 200px;
    gap: 40px;
    margin-bottom: 50px;
 }
 .tutorpic{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
     width: 100%;
 }
@@ -418,6 +430,11 @@ h6{
     margin-top: 50px;
     margin-left: 140px;
     cursor: pointer;
+}
+.joinow button:hover{
+    transform: scale(1.1);
+    background-color: #f7f7f7;
+    color: black;
 }
 .learn{
     height: 300px;
@@ -478,6 +495,10 @@ h6{
     cursor: pointer;
     margin-top: 20px;
     color: black;
+}
+.sub2 button:hover{
+    background-color: #2e0228;
+    color:white;
 }
 .last{
     height: fit-content;
